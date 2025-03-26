@@ -1,10 +1,127 @@
-{
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"liveServer.settings.port": 5501
-	}
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mikhail, cv, 
+    resume">
+    <meta name="description" content="Это мой сайт-
+    резюме Михаила Андреева">
+    <link rel="stylesheet" href="style.css">
+    <title>Mikhails resume</title>
+    <style>
+        body {
+            background: #f5eef4;
+        }
+
+       header{
+        border: 1px solid grey;
+    } 
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="info">
+
+<img src="photo_2024-05-15_21-23-23.jpg" class="avatar" alt="здесь фото красвчика">
+
+
+<div class="infotext"></div>
+ <h1>Михаил Андреев</h1> 
+ <hr>
+ 
+ <h2><strong>Добро пожаловать!</strong></h2> 
+
+
+
+ 
+    <p>Привет! Меня зовут Михаил Андреев, я начинающий Web разработчкик. В будущем мечтаю стать frontend и backend разработчкиком.</p>
+    <p>Я увлекаюсь футболом, прогрммированием и музыкой. Люблю смотреть фильмы,читать и открывать что-то новое.</p>
+    <hr>
+    <h4><em>Список социальных сетей:</em>
+
+
+    </h4>
+ <a href="https://t.me/PestriyPes" target="_blank">Telegram</a>
+|
+ <a href="https://vk.com/id658914539" target="_blank">Vk</a>
+|
+<a href="http://www.youtube.com/@MrGreen-jd2rb" target="_blank">Youtube</a>
+
+    </div>
+    <div class="card bg-green">
+    <h2>Мои хобби</h2>
+
+    <ol class="list">
+        <li>Прогрммирование</li>
+        <li>Футбол</li>
+        <li>Смотреть фильмы</li>
+    </ol>
+    </div>
+
+<div class="card bg-pink">
+<h2>Опыт работы:</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Стройком</td>
+            <td>Строитель</td>
+            <td>2017-2023</td>
+        </tr>
+        <tr>
+            <td>Chill Out</td>
+            <td>Администратор</td>
+            <td>2023-2024</td>
+        </tr>
+        <tr>
+            <td>Эскади</td>
+            <td>Менеджер</td>
+            <td>2024-по нв</td>
+        </tr>
+        
+
+    </tbody>
+    </table>
+</div>
+
+
+<form action="/" class="form">
+    <h2>Связаться со мной</h2>
+
+     <div class="form-row">
+
+    <div class="form-group">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name"
+        placeholder="Введите имя">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email"
+        placeholder="Введите email">
+    </div>
+</div>
+
+    <div class="form-group">
+        <label for="message">Ваше сообщение</label>
+        <textarea id="message" cols="20"
+        rows="5"placeholder="Введите сообщение..."></textarea>
+    </div>
+    <div>
+        <input class="btn" type="submit" value="Отправить!">
+    </div>
+</form>
+
+</div>
+</body>
+</html>
